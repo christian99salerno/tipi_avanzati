@@ -3,8 +3,6 @@
 int main () 
 {
 
-int x1,x2,x3;
-
 int numbers[3];
 
 printf("Somma e Media\n");
@@ -14,17 +12,13 @@ printf("\n");
 printf("Inserisci tre valori interi:\n");
 
 printf("? ");
-scanf("%d", &x1);
+scanf("%d", &numbers[0]);
 
 printf("? ");
-scanf("%d", &x2);
+scanf("%d", &numbers[1]);
 
 printf("? ");
-scanf("%d", &x3);
-
-numbers[0] = x1;
-numbers[1] = x2;
-numbers[2] = x3;
+scanf("%d", &numbers[2]);
 
 int somma = numbers[0] + numbers[1] + numbers[2];
 
